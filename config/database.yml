@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: yumelog_production
-  username: yumelog
+  username: <%= ENV['YUMELOG_DATABASE_USERNAME'] %>
   password: <%= ENV['YUMELOG_DATABASE_PASSWORD'] %>
