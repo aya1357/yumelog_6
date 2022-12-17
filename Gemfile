@@ -59,3 +59,5 @@ gem 'devise'
 gem "net-smtp"
 gem 'omniauth-twitter'
 gem 'tailwindcss-rails'
+gem 'cssbundling-rails'
+gem 'jsbundling-rails'
